@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Agricole",
+    "slug": "agricole",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/70dfa12e-b680-43b7-b757-1e33933c9a6a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.recycloo.agricole"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.recycloo.agricole"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70dfa12e-b680-43b7-b757-1e33933c9a6a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
