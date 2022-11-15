@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Agricole",
-    "slug": "agricole",
+    "name": "Hotels",
+    "slug": "Hotels",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
@@ -11,15 +11,13 @@
       "backgroundColor": "#fff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/70dfa12e-b680-43b7-b757-1e33933c9a6a"
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.recycloo.agricole"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -30,11 +28,6 @@
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "70dfa12e-b680-43b7-b757-1e33933c9a6a"
-      }
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
